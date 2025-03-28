@@ -6,10 +6,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <cerrno>
-#define CTRL_KEY(key) ((key)& 0x1f)
 
-extern struct termios orig_termios;
-void disableRaw();
-void enableRaw();
+#define CTRL_KEY(key) ((key)& 0x1f)
 void editorProcessKeypress();
-void die (const char *s);
+char editorReadKey();

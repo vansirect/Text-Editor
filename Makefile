@@ -1,8 +1,8 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
 
-SRC = main.cpp raw.cpp 
-HEADERS = raw.h
+SRC = main.cpp raw.cpp input_output.cpp
+HEADERS = raw.h input_output.h
 
 
 
