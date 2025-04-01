@@ -5,13 +5,15 @@
 #include<ctype.h>
 #include<unistd.h>
 
+
 int main(){
    enableRaw();
-   char c;
+   
 
    
 
    while(1){
+      editorRefreshScreen();
       editorProcessKeypress();
    }
 
